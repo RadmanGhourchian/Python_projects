@@ -1,1 +1,0 @@
-print("It is Python Project 10")
