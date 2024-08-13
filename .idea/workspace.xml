@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da3b6b17-7371-49e7-b316-93dea30652d5" name="Changes" comment="moving diagram photo to diagrams directory" />
+    <list default="true" id="da3b6b17-7371-49e7-b316-93dea30652d5" name="Changes" comment="some kind of sorting_2">
+      <change afterPath="$PROJECT_DIR$/Python_Project_11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,18 +45,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Python_Project_11.executor": "Run",
+    "Python.test.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\win11_python_project\Python_projects\diagrams" />
@@ -77,6 +84,9 @@
       <workItem from="1723368264827" duration="340000" />
       <workItem from="1723368627578" duration="772000" />
       <workItem from="1723369807417" duration="88000" />
+      <workItem from="1723370020546" duration="290000" />
+      <workItem from="1723470307584" duration="1356000" />
+      <workItem from="1723483197607" duration="604000" />
     </task>
     <task id="LOCAL-00001" summary="Python Project 10">
       <option name="closed" value="true" />
@@ -118,7 +128,39 @@
       <option name="project" value="LOCAL" />
       <updated>1723369861406</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="adding all of my programs to github">
+      <option name="closed" value="true" />
+      <created>1723370064442</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1723370064442</updated>
+    </task>
+    <task id="LOCAL-00007" summary="changing it's folder name">
+      <option name="closed" value="true" />
+      <created>1723370145160</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1723370145160</updated>
+    </task>
+    <task id="LOCAL-00008" summary="some kind of sorting">
+      <option name="closed" value="true" />
+      <created>1723370244243</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1723370244243</updated>
+    </task>
+    <task id="LOCAL-00009" summary="some kind of sorting_2">
+      <option name="closed" value="true" />
+      <created>1723370260430</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1723370260430</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +171,14 @@
     <MESSAGE value="Python Project 10&#10;Print" />
     <MESSAGE value="Deleting unnecesery things" />
     <MESSAGE value="moving diagram photo to diagrams directory" />
-    <option name="LAST_COMMIT_MESSAGE" value="moving diagram photo to diagrams directory" />
+    <MESSAGE value="adding all of my programs to github" />
+    <MESSAGE value="changing it's folder name" />
+    <MESSAGE value="some kind of sorting" />
+    <MESSAGE value="some kind of sorting_2" />
+    <option name="LAST_COMMIT_MESSAGE" value="some kind of sorting_2" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Python_projects$Python_Project_11.coverage" NAME="Python_Project_11 Coverage Results" MODIFIED="1723483789255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_projects$test.coverage" NAME="test Coverage Results" MODIFIED="1723483598815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
