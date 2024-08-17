@@ -1,10 +1,18 @@
-import tkinter as tk
+from tkinter import *
+from tkinter.ttk import Combobox
 
-win = tk.Tk()
+def change(event):
+    win.config(bg=color.get())
+
+win = Tk()
 win.title("Python Project 12")
 win.geometry("500x500")
 win.resizable(False, False)
 
-tk.Label(win, text="Python Project 12", fg="dark green", font="Arail").place(x=100, y=130)
+color = StringVar()
+combobox = Combobox(win,state="readonly", values=["blue", "red", "gray"], textvariable=color)
+combobox.place(x=50, y=130)
+combobox.current(0)
+combobox.bind("<<ComboboxSelected>>", change)
 
 win.mainloop()
