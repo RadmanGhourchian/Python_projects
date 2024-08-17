@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da3b6b17-7371-49e7-b316-93dea30652d5" name="Changes" comment="New mobile sail program with GUI with its own directory.">
+    <list default="true" id="da3b6b17-7371-49e7-b316-93dea30652d5" name="Changes" comment="Adding the files nedded to code on for the 12th session of python.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Project_12/Python_Project_12.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_Project_12/Python_Project_12.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Project_12/module_12.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_Project_12/module_12.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,10 +47,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.Python_Project_11.executor": "Run",
+    "Python.Python_Project_12.executor": "Run",
     "Python.test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/win11_python_project/Python_315301",
+    "last_opened_file_path": "D:/win11_python_project/Python_projects",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -90,6 +93,7 @@
       <workItem from="1723536043103" duration="167000" />
       <workItem from="1723883943518" duration="140000" />
       <workItem from="1723892189196" duration="231000" />
+      <workItem from="1723892508649" duration="606000" />
     </task>
     <task id="LOCAL-00001" summary="Python Project 10">
       <option name="closed" value="true" />
@@ -179,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723533411038</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Adding the files nedded to code on for the 12th session of python.">
+      <option name="closed" value="true" />
+      <created>1723892651127</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1723892651127</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,10 +208,12 @@
     <MESSAGE value="some kind of sorting_2" />
     <MESSAGE value="New mobile sail program with GUI." />
     <MESSAGE value="New mobile sail program with GUI with its own directory." />
-    <option name="LAST_COMMIT_MESSAGE" value="New mobile sail program with GUI with its own directory." />
+    <MESSAGE value="Adding the files nedded to code on for the 12th session of python." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding the files nedded to code on for the 12th session of python." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python_projects$Python_Project_11.coverage" NAME="Python_Project_11 Coverage Results" MODIFIED="1723892196150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Project_11" />
+    <SUITE FILE_PATH="coverage/Python_projects$Python_Project_12.coverage" NAME="Python_Project_12 Coverage Results" MODIFIED="1723893105634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Project_12" />
     <SUITE FILE_PATH="coverage/Python_projects$test.coverage" NAME="test Coverage Results" MODIFIED="1723483598815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
