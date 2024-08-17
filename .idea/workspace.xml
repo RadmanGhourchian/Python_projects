@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da3b6b17-7371-49e7-b316-93dea30652d5" name="Changes" comment="Adding the files nedded to code on for the 12th session of python.">
+    <list default="true" id="da3b6b17-7371-49e7-b316-93dea30652d5" name="Changes" comment="A little bit of starter code.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Project_12/Python_Project_12.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_Project_12/Python_Project_12.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Project_12/module_12.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_Project_12/module_12.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,22 +42,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Python_Project_11.executor": "Run",
-    "Python.Python_Project_12.executor": "Run",
-    "Python.test.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/win11_python_project/Python_projects",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Python_Project_11.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Python_Project_12.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/win11_python_project/Python_projects&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\win11_python_project\Python_projects\Python_Project_11" />
@@ -94,6 +92,7 @@
       <workItem from="1723883943518" duration="140000" />
       <workItem from="1723892189196" duration="231000" />
       <workItem from="1723892508649" duration="606000" />
+      <workItem from="1723893133030" duration="726000" />
     </task>
     <task id="LOCAL-00001" summary="Python Project 10">
       <option name="closed" value="true" />
@@ -191,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723892651127</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="A little bit of starter code.">
+      <option name="closed" value="true" />
+      <created>1723893263202</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1723893263202</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,11 +216,12 @@
     <MESSAGE value="New mobile sail program with GUI." />
     <MESSAGE value="New mobile sail program with GUI with its own directory." />
     <MESSAGE value="Adding the files nedded to code on for the 12th session of python." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding the files nedded to code on for the 12th session of python." />
+    <MESSAGE value="A little bit of starter code." />
+    <option name="LAST_COMMIT_MESSAGE" value="A little bit of starter code." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python_projects$Python_Project_11.coverage" NAME="Python_Project_11 Coverage Results" MODIFIED="1723892196150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Project_11" />
-    <SUITE FILE_PATH="coverage/Python_projects$Python_Project_12.coverage" NAME="Python_Project_12 Coverage Results" MODIFIED="1723893105634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Project_12" />
+    <SUITE FILE_PATH="coverage/Python_projects$Python_Project_12.coverage" NAME="Python_Project_12 Coverage Results" MODIFIED="1723893862235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Project_12" />
     <SUITE FILE_PATH="coverage/Python_projects$test.coverage" NAME="test Coverage Results" MODIFIED="1723483598815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
