@@ -1,20 +1,26 @@
 import tkinter
+from tkinter import *
 import tkinter.ttk as ttk
-from module import *
 import tkinter.messagebox as msg
+from module import *
 
 mobile_list = []
+mobile_tuple_list = []
 
 win = tkinter.Tk()
 win.title("Mobile Sail")
-win.geometry('500x500')
+win.geometry('740x500')
+win.resizable(False, False)
 
 def sell():
     if model(Model.get()):
         dicttionary = {"Brand": brand.get(), "Model": Model.get(), "color": color.get(), "glass_option": glass_option.get(), "memory_option": memory_option.get()}
+        tuple_list = (brand.get(), Model.get(), color.get(), glass_option.get(), memory_option.get())
+        mobile_tuple_list.append(tuple_list)
         mobile_list.append(dicttionary)
         msg.showinfo("Saved", f"Dict {dicttionary} Saved")
         rester()
+        table_rester()
     else:
         msg.showerror("Error", "Please enter a validable model")
 
@@ -24,6 +30,13 @@ def rester():
     color = ""
     glass_option = False
     memory_option = False
+
+def table_rester():
+    for i in table.get_children():
+        table.delete(i)
+
+    for i in mobile_tuple_list:
+        table.insert("", END, values=i)
 
 tkinter.Label(win, text="Brand : ").place(x=80, y=30)
 brand = tkinter.StringVar()
@@ -45,5 +58,20 @@ memory_option = tkinter.BooleanVar()
 tkinter.Checkbutton(win, text="memory option", variable=memory_option).place(x=140, y=200)
 
 tkinter.Button(win, text="Sell", width=10, command=sell).place(x=90, y=250)
+
+table =  ttk.Treeview(win, columns=(1, 2, 3, 4, 5), height=12, show="headings")
+table.heading(1, text="Brand")
+table.heading(2, text="Model")
+table.heading(3, text="Color")
+table.heading(4, text="Glass option")
+table.heading(5, text="Memory option")
+
+table.column(1, width=80)
+table.column(2, width=80)
+table.column(3, width=80)
+table.column(4, width=80)
+table.column(5, width=100)
+
+table.place(x=300, y=30)
 
 win.mainloop()
