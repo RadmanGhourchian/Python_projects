@@ -2,84 +2,71 @@ from tkinter import *
 import tkinter.ttk as ttk
 from module import *
 import tkinter.messagebox as msg
+import pickle
 
 list_tuple = []
-sum_list = []
-
+list_tuple_2 = []
 
 def saver():
     if (product_validator(product.get()) and person_validator(person.get())) == True:
         info_tuple = [product.get(), price.get(), count.get(), person.get(), In_Out.get()]
-        list_tuple.append(info_tuple)
+        adad = 0
+        if len(list_tuple) < 1:
+            if In_Out.get() == "In":
+                list_tuple.append(info_tuple)
+
+            elif In_Out.get() == "Out":
+                msg.showerror("Error", "No we don't have that product!")
+        else:
+            for i in list_tuple:
+                if product.get() != i[0]:
+                    continue
+                else:
+                    adad = adad + 1
+                    j = i
+                    break
+
+            if adad == 0:
+                if In_Out.get() == "In":
+                    list_tuple.append(info_tuple)
+                elif In_Out.get() == "Out":
+                    msg.showerror("Error", "No we don't have that product!")
+            elif adad == 1:
+                for i in list_tuple:
+                    if i == j:
+                        if In_Out.get() == "In":
+                            i[2] = int(i[2]) + int(count.get())
+                        elif In_Out.get() == "Out":
+                            if int(i[2]) < int(count.get()):
+                                msg.showerror("Error", "We don't have this many products!")
+                            else:
+                                i[2] = int(i[2]) - int(count.get())
+                        else:
+                            msg.showerror("Error", "We don't have this product!")
+
+
+
         refresh()
-        print(list_tuple)
-        if len(list_tuple) >= 1 and In_Out.get() != "Out":
-            msg.showinfo("Saved", f"Dict {info_tuple} Saved !")
+        # print(list_tuple)
+        # print(count.get())
+        # print(price.get())
+        # if len(list_tuple) >= 1 and In_Out.get() != "Out":
+        msg.showinfo("Saved", f"Dict {info_tuple} Saved !")
 
-
-
-        # if float(count.get()) < 2 and In_Out.get() == "Out":
-        #     msg.showerror("Error", "There is no data to reduce it!")
-        #     print("")
-        #     refresh()
-        # else:
-        #     for i in list_tuple:
-        #         if i[0] == product.get():
-        #             msg.showinfo("Saved", f"Dict {info_tuple} Saved !")
-        #             return None
-
-        #     list_tuple.append(info_tuple)
-        #     refresh()
-        #     print(list_tuple)
-        #     msg.showinfo("Saved", f"Dict {info_tuple} Saved !")
     else:
         msg.showerror("Error", "Please enter correct data!")
-
-
-
-def adder():
-    add = 0
-    for i in list_tuple:
-        if product.get() == i[0]:
-            add = add + 1
-
-    for i in list_tuple:
-        if add == 1:
-            table.insert("", END, values=i)
-        elif add > 1:
-            if i[0] == product.get():
-                if In_Out.get() == "In":
-                    a = i
-                    a2 = [a[0], a[1], a[2], a[3], a[4]]
-                    list_tuple.append(a2)
-                    table.delete(i)
-                    a[2] = str(int(a[2]) + int(count.get()))
-                    table.insert("", END, values=a2)
-                    return None
 
 
 def refresh():
     for i in table.get_children():
         table.delete(i)
 
-    for i in list_tuple:
-        if i[0] == product.get():
-            if In_Out.get() == "In":
-                # table.insert("", END, values=i)
-                adder()
-            elif In_Out.get() == "Out" and len(list_tuple) <=1:
-                list_tuple.clear()
-                msg.showerror("error", "aaaa")
-            elif int(i[2]) < int(count.get()):
-                list_tuple.remove(i)
-                msg.showerror("Error", "You don't you that much data")
-            elif int(i[2]) > int(count.get()):
-                i[2] = int(i[2]) - int(count.get())
-                if i[2] == 0:
-                    list_tuple.remove(i)
-                    return None
-        else:
-            msg.showerror("Error", "aaaaaaa")
+
+    for i in list_tuple:# []
+        # if i[0] == product.get():
+            # if In_Out.get() == "In":
+        table.insert("", END, values=i, tags=i[4])
+
 
 
 
@@ -120,7 +107,7 @@ table.column(1, width=120)
 table.column(2, width=120)
 table.column(3, width=120)
 
-table.tag_configure("In", foreground="lightgreen")
+table.tag_configure("In", foreground="green")
 # table.tag_configure("Out", foreground="pink")
 
 table.place(x=300, y=20)
