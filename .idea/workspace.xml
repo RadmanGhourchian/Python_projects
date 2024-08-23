@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da3b6b17-7371-49e7-b316-93dea30652d5" name="Changes" comment="The new project.">
+    <list default="true" id="da3b6b17-7371-49e7-b316-93dea30652d5" name="Changes" comment="The new project 2.">
+      <change afterPath="$PROJECT_DIR$/Python_Project_13/Python_Project_13.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Project_13/module.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Project_13/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Project_11/Python_Project_11.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_Project_11/Python_Project_11.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +49,7 @@
   &quot;keyToString&quot;: {
     &quot;Python.Python_Project_11.executor&quot;: &quot;Run&quot;,
     &quot;Python.Python_Project_12.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Python_Project_13.executor&quot;: &quot;Run&quot;,
     &quot;Python.test.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
@@ -61,6 +64,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\win11_python_project\Python_projects\Python_Project_13" />
       <recent name="D:\win11_python_project\Python_projects\Python_Project_11" />
       <recent name="D:\win11_python_project\Python_projects\diagrams" />
     </key>
@@ -93,7 +97,14 @@
       <workItem from="1723883943518" duration="140000" />
       <workItem from="1723892189196" duration="231000" />
       <workItem from="1723892508649" duration="606000" />
-      <workItem from="1723893133030" duration="5005000" />
+      <workItem from="1723893133030" duration="5308000" />
+      <workItem from="1724066071046" duration="2848000" />
+      <workItem from="1724087411332" duration="1858000" />
+      <workItem from="1724170616212" duration="2510000" />
+      <workItem from="1724173203903" duration="1273000" />
+      <workItem from="1724304831465" duration="5117000" />
+      <workItem from="1724309993239" duration="1855000" />
+      <workItem from="1724392822588" duration="4301000" />
     </task>
     <task id="LOCAL-00001" summary="Python Project 10">
       <option name="closed" value="true" />
@@ -223,7 +234,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723902342677</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="The new project 2.">
+      <option name="closed" value="true" />
+      <created>1723903343722</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1723903343722</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,11 +263,13 @@
     <MESSAGE value="A little bit of starter code." />
     <MESSAGE value="A new proggram." />
     <MESSAGE value="The new project." />
-    <option name="LAST_COMMIT_MESSAGE" value="The new project." />
+    <MESSAGE value="The new project 2." />
+    <option name="LAST_COMMIT_MESSAGE" value="The new project 2." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Python_projects$Python_Project_11.coverage" NAME="Python_Project_11 Coverage Results" MODIFIED="1723903044498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Project_11" />
+    <SUITE FILE_PATH="coverage/Python_projects$Python_Project_11.coverage" NAME="Python_Project_11 Coverage Results" MODIFIED="1723903321852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Project_11" />
+    <SUITE FILE_PATH="coverage/Python_projects$Python_Project_13.coverage" NAME="Python_Project_13 Coverage Results" MODIFIED="1724397088960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Project_13" />
     <SUITE FILE_PATH="coverage/Python_projects$Python_Project_12.coverage" NAME="Python_Project_12 Coverage Results" MODIFIED="1723897887220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Project_12" />
-    <SUITE FILE_PATH="coverage/Python_projects$test.coverage" NAME="test Coverage Results" MODIFIED="1723902735111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Tests" />
+    <SUITE FILE_PATH="coverage/Python_projects$test.coverage" NAME="test Coverage Results" MODIFIED="1724172726107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Project_13" />
   </component>
 </project>
