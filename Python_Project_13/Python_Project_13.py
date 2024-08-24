@@ -7,6 +7,12 @@ import pickle
 list_tuple = []
 list_tuple_2 = []
 
+def leave(event):
+    event.widget.config(bg="white", fg="black")
+
+def buity(event):
+    event.widget.config(bg='lightblue')
+
 def saver():
     if (product_validator(product.get()) and person_validator(person.get())) == True:
         info_tuple = [product.get(), price.get(), count.get(), person.get(), In_Out.get()]
@@ -114,7 +120,11 @@ table.place(x=300, y=20)
 
 refresh()
 
-Button(win, text="Save", command=saver).place(x=20, y=230)
+btn = Button(win, text="Save", command=saver)
+btn.place(x=20, y=230)
+btn.bind("<Button-1>", buity)
+btn.bind("<Enter>", buity)
+btn.bind("<Leave>", leave)
 # button = ttk.Button(win, text="Get", command=save_button)
 # button.place(x=20, y=230)
 
