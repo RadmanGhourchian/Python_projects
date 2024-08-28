@@ -14,8 +14,21 @@ class Product:
 
     def __str__(self):
         return f'{self.name} {self.brand} {self.quintity} {self.price}'
+
+    def name_validator(self):
+        if re.match(r"^[a-zA-Z\d\s]{3,30}$", self.name):
+            return True
+        else:
+            return False
+
+    def brand_validator(self):
+        if re.match(r"^[a-zA-Z\s\d]{3,30}$", self.brand):
+            return True
+        else:
+            return False
+
     def save(self):
-        if name_validator(self.name) and brand_validator(self.brand):
+        if name_validator() and brand_validator():
             connection = mysql.connector.connect(
                 host="localhost",
                 user="root",
@@ -31,7 +44,7 @@ class Product:
             connection.close()
             return True, "saved!"
         else:
-            return False, msg.showerror("Error", "Please enter valid name and brand!")
+            return False,  msg.showerror("Error", "Please enter valid name and brand!")
     def edit(self):
         if self.name_validator() and self.brand_validator():
             connection = mysql.connector.connect(
@@ -41,7 +54,7 @@ class Product:
                 database="radman"
             )
             cursor = connection.cursor()
-            cursor.execute("UPDATE product SET NAME=%s, BRAND=%s, PRICE=%s WHERE ID=%s", [self.name, self.brand, self.price, self.id])
+            cursor.execute("UPDATE product SET NAME=%s, BRAND=%s,QUINTITY=%s,  PRICE=%s WHERE ID=%s", [self.name, self.brand, self.quintity,  self.price, self.id])
             connection.commit()
             cursor.close()
             connection.close()
