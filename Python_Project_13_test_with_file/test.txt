@@ -1,0 +1,4 @@
+['laptop', '1000', '1', 'radman', 'In']
+['laptop', '1000', '1', 'radman', 'In']
+['mobile', '1000', '1', 'radman', 'In']
+['mobile', '1000', '2', 'radman', 'In']
