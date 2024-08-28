@@ -1,5 +1,8 @@
+import mysql.connector
+
 class Sell:
-    def __init__(self, person, product, quantity, price):
+    def __init__(self, id, person, product, quantity, price):
+        self.id = id
         self.person = person
         self.product = product
         self.quantity = quantity
@@ -15,4 +18,14 @@ class Sell:
         return Sell.total(self) - Sell.tax(self)
 
     def sell(self):
-        pass
+        connection = mysql.connector.connect(
+            host='localhost',
+            user='root',
+            password='r@dm@ns@r@1358',
+            database='radman'
+        )
+        cursor = connection.cursor()
+        cursor.execute("UPDATE radman.product SET QUINTITY= (QUINTITY - %s) WHERE ID=%s", [self.quantity, self.id])
+        connection.commit()
+        cursor.close()
+        connection.close()

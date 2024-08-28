@@ -4,16 +4,18 @@ from validator import *
 
 import mysql.connector
 
+
 class Product:
-    def __init__(self, id, name, brand, quintity, price):
+    def __init__(self, id, name, brand, quintity, price, person):
         self.id = id
         self.name = name
         self.brand = brand
         self.quintity = quintity
         self.price = price
+        self.person = person
 
     def __str__(self):
-        return f'{self.name} {self.brand} {self.quintity} {self.price}'
+        return f'{self.name} {self.brand} {self.quintity} {self.price} {self.person}'
 
     def name_validator(self):
         if re.match(r"^[a-zA-Z\d\s]{3,30}$", self.name):
@@ -28,7 +30,7 @@ class Product:
             return False
 
     def save(self):
-        if name_validator() and brand_validator():
+        if self.name_validator() and self.brand_validator():
             connection = mysql.connector.connect(
                 host="localhost",
                 user="root",
@@ -36,15 +38,16 @@ class Product:
                 database="radman"
             )
             cursor = connection.cursor()
-            cursor.execute("INSERT INTO PRODUCT(NAME, BRAND, QUINTITY, PRICE) VALUES (%s, %s, %s, %s)",
-                           [self.name, self.brand, self.quintity, self.price])
+            cursor.execute("INSERT INTO PRODUCT(NAME, BRAND, QUINTITY, PRICE, PERSON) VALUES (%s, %s, %s, %s, %s)",
+                           [self.name, self.brand, self.quintity, self.price, self.person])
 
             connection.commit()
             cursor.close()
             connection.close()
             return True, "saved!"
         else:
-            return False,  msg.showerror("Error", "Please enter valid name and brand!")
+            return False, msg.showerror("Error", "Please enter valid name and brand!")
+
     def edit(self):
         if self.name_validator() and self.brand_validator():
             connection = mysql.connector.connect(
@@ -54,13 +57,15 @@ class Product:
                 database="radman"
             )
             cursor = connection.cursor()
-            cursor.execute("UPDATE product SET NAME=%s, BRAND=%s,QUINTITY=%s,  PRICE=%s WHERE ID=%s", [self.name, self.brand, self.quintity,  self.price, self.id])
+            cursor.execute("UPDATE product SET NAME=%s, BRAND=%s,QUINTITY=%s, PRICE=%s, PERSON=%s WHERE ID=%s",
+                           [self.name, self.brand, self.quintity, self.price, self.person, self.id])
             connection.commit()
             cursor.close()
             connection.close()
             return True, "edited!"
         else:
             return False, msg.showerror("Error", "Please enter valid name and brand!")
+
     def delete(self):
         connection = mysql.connector.connect(
             host="localhost",
@@ -89,6 +94,7 @@ class Product:
         connection.close()
         for i in product_list:
             print(i)
+
     def find_by_id(self):
         connection = mysql.connector.connect(
             host="localhost",
@@ -103,6 +109,7 @@ class Product:
         connection.close()
         for i in product_list:
             print(i)
+
     def find_by_name(self):
         connection = mysql.connector.connect(
             host="localhost",
