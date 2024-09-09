@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da3b6b17-7371-49e7-b316-93dea30652d5" name="Changes" comment="The Real 15th Python Project. The Last Update And The Complete One.">
+    <list default="true" id="da3b6b17-7371-49e7-b316-93dea30652d5" name="Changes" comment="Updating passwords and ids problems.">
+      <change afterPath="$PROJECT_DIR$/Python_Project_16/classes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Project_16/database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Project_16/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Project_16/view.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/51e9b612-0a45-4d4e-84cf-86cfe275b53e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/51e9b612-0a45-4d4e-84cf-86cfe275b53e.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -74,6 +79,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -142,7 +148,10 @@
       <workItem from="1724845255811" duration="9872000" />
       <workItem from="1724857269284" duration="1269000" />
       <workItem from="1724858855444" duration="7953000" />
-      <workItem from="1725098910581" duration="1286000" />
+      <workItem from="1725098910581" duration="3566000" />
+      <workItem from="1725433274234" duration="10740000" />
+      <workItem from="1725530845087" duration="424000" />
+      <workItem from="1725609368610" duration="309000" />
     </task>
     <task id="LOCAL-00001" summary="Python Project 10">
       <option name="closed" value="true" />
@@ -336,7 +345,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724868717683</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Updating passwords and ids problems.">
+      <option name="closed" value="true" />
+      <created>1725100246240</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1725100246240</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,27 +382,28 @@
     <MESSAGE value="The Real 15th Python Project. It's Finally Done." />
     <MESSAGE value="The Real 15th Python Project." />
     <MESSAGE value="The Real 15th Python Project. The Last Update And The Complete One." />
-    <option name="LAST_COMMIT_MESSAGE" value="The Real 15th Python Project. The Last Update And The Complete One." />
+    <MESSAGE value="Updating passwords and ids problems." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating passwords and ids problems." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Python_projects$view.coverage" NAME="view Coverage Results" MODIFIED="1725100205754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Project_15" />
+    <SUITE FILE_PATH="coverage/Python_projects$view.coverage" NAME="view Coverage Results" MODIFIED="1725452933830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Project_16" />
     <SUITE FILE_PATH="coverage/Python_projects$product.coverage" NAME="product Coverage Results" MODIFIED="1724863171341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_for_all_the_programs" />
     <SUITE FILE_PATH="coverage/Python_projects$Python_Project_13.coverage" NAME="Python_Project_13 Coverage Results" MODIFIED="1724494952192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Project_13" />
     <SUITE FILE_PATH="coverage/Python_projects$04.coverage" NAME="04 Coverage Results" MODIFIED="1724413310241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Temp/Rar$DIa7820.11488" />
-    <SUITE FILE_PATH="coverage/Python_projects$03.coverage" NAME="03 Coverage Results" MODIFIED="1724413301031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Temp/Rar$DIa7820.10701" />
     <SUITE FILE_PATH="coverage/Python_projects$06.coverage" NAME="06 Coverage Results" MODIFIED="1724413350325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Temp/Rar$DIa7820.15745" />
+    <SUITE FILE_PATH="coverage/Python_projects$03.coverage" NAME="03 Coverage Results" MODIFIED="1724413301031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Temp/Rar$DIa7820.10701" />
     <SUITE FILE_PATH="coverage/Python_projects$Python_Project_13_2.coverage" NAME="Python_Project_13_2 Coverage Results" MODIFIED="1724408757554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Project_13" />
     <SUITE FILE_PATH="coverage/Python_projects$Python_Project_11.coverage" NAME="Python_Project_11 Coverage Results" MODIFIED="1723903321852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Project_11" />
     <SUITE FILE_PATH="coverage/Python_projects$person.coverage" NAME="person Coverage Results" MODIFIED="1724867584974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Project_15" />
     <SUITE FILE_PATH="coverage/Python_projects$02.coverage" NAME="02 Coverage Results" MODIFIED="1724413280049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Temp/Rar$DIa7820.8210" />
     <SUITE FILE_PATH="coverage/Python_projects$Python_Project_13_test_with_file.coverage" NAME="Python_Project_13_test_with_file Coverage Results" MODIFIED="1724503770026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Project_13_test_with_file" />
     <SUITE FILE_PATH="coverage/Python_projects$calculator.coverage" NAME="calculator Coverage Results" MODIFIED="1724494878732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Temp/Rar$DIa1660.37474" />
-    <SUITE FILE_PATH="coverage/Python_projects$database.coverage" NAME="database Coverage Results" MODIFIED="1724567965712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ptyhon_Project_14" />
+    <SUITE FILE_PATH="coverage/Python_projects$database.coverage" NAME="database Coverage Results" MODIFIED="1725436602357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Project_16" />
     <SUITE FILE_PATH="coverage/Python_projects$Python_Project_12.coverage" NAME="Python_Project_12 Coverage Results" MODIFIED="1723897887220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Project_12" />
     <SUITE FILE_PATH="coverage/Python_projects$test_for_all_programs.coverage" NAME="test_for_all_programs Coverage Results" MODIFIED="1724566620748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_for_all_the_programs" />
     <SUITE FILE_PATH="coverage/Python_projects$bank_app.coverage" NAME="bank_app Coverage Results" MODIFIED="1724397291773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads/Python 13/project/view" />
     <SUITE FILE_PATH="coverage/Python_projects$01.coverage" NAME="01 Coverage Results" MODIFIED="1724413245398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Temp/Rar$DIa7820.4026" />
-    <SUITE FILE_PATH="coverage/Python_projects$test.coverage" NAME="test Coverage Results" MODIFIED="1724861637261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_for_all_the_programs" />
+    <SUITE FILE_PATH="coverage/Python_projects$test.coverage" NAME="test Coverage Results" MODIFIED="1725609661011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_projects$05.coverage" NAME="05 Coverage Results" MODIFIED="1724413343095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Temp/Rar$DIa7820.15044" />
   </component>
 </project>
