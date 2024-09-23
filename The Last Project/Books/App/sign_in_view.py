@@ -1,12 +1,11 @@
 import datetime
-from tkinter import *
 from EntryWithLabel_Class import *
 import tkinter.ttk as ttk
-from Person_Controller import PersonController
+from Books.Controller.Person_Controller import PersonController
 # from Booksehlf_View import BooksehlfView
 import tkinter.messagebox as msg
-from Controller import BookController
-from Bill_Controller import BillController
+from Books.Controller.Controller import BookController
+from Books.Controller.Bill_Controller import BillController
 
 
 class SignInView:

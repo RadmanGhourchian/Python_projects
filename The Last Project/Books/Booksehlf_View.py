@@ -1,9 +1,3 @@
-from tkinter import *
-from EntryWithLabel_Class import *
-from tkinter import ttk
-from Controller import BookController
-import tkinter.messagebox as msg
-
 # class BookShelfView:
 #     def __init__(self):
         # self.win = Tk()

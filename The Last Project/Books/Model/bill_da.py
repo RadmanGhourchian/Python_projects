@@ -17,7 +17,7 @@ class BillDa:
 	def save(self, bill):
 		self.connect()
 		#todo : complete sql command and parameters
-		self.cursor.execute("insert into bill_tbl (datte, bill_id, book_name, amount) values (%s, %s, %s, %s)",[bill.date, bill.id, bill.book_name, bill.amount])
+		self.cursor.execute("insert into bill_tbl (datte, bill_id, book_name, amount) values (%s, %s, %s, %s)",[bill.date, bill.id, bill.book_name, bill.amount	])
 		self.disconnect(commit = True)
 
 	# def edit(self, bill):
